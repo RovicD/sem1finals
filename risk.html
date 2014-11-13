@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CompanionApp</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/CabinSketch_700.font.js"></script>
+<script type="text/javascript" src="js/EB_Garamond_400.font.js"></script>
+</head>
+<body id="page1">
+<!-- START PAGE SOURCE -->
+<div class="main">
+  <header>
+    <div class="wrapper">
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html"><span>H</span>ome</a></li>
+          <li><a href="contacts.html"><span>C</span>ontacts</a></li>
+          <li><a href="location.html"><span>L</span>ocation</a></li>
+		  <li id="menu_active"><a href="risk.html"><span>R</span>isk Awareness</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <section id="content">
+    <div class="wrapper">
+      <article class="col1">
+        <h2>Risk Awareness</h2>
+        <div class="pad_left1 pad_bot1">
+          <div id="slider">
+          </div>
+          <div class="pad">
+            <p><br></p>
+			<li>Get A Rescue Alert Sticker</li>
+			<li>Arrange A Safe Haven</li>
+			<li>Emergency Supplies And Travelling Kits</li>
+			<li>Choose Designated "Caregivers"</li>
+			<li>Evacuation Preparation</li>
+			<li>Geographic and Climatic Considerations</li>
+        </div>
+      </article>
+    <div class="wrapper">
+      <article class="col1">
+        <h2>Ensure Your Safety</h2>
+        <div class="pad_left1 pad_bot1">
+          <div id="slider">
+          </div>
+          <div class="pad">
+            <p><br>Recovering from disaster is usually a gradual process. Safety is a primary issue, as are mental and physical well-being. If assistance is available, knowing how to access it makes the process faster and less stressful. Your first concern after a disaster is your family’s health and safety. You need to consider possible safety issues and monitor family health and well-being..</p>
+			<p><strong>Aiding The Injured</strong></p>
+			<li>Check for injuries. Do not attempt to move seriously injured persons unless they are in immediate danger of death or further injury. If you must move an unconscious person, first stabilize the neck and back, then call for help immediately.</li>
+			<li>If the victim is not breathing, carefully position the victim for artificial respiration, clear the airway and commence mouth-to-mouth resuscitation.</li>
+			<li>Maintain body temperature with blankets. Be sure the victim does not become overheated.</li>
+			<li>Never try to feed liquids to an unconscious person.</li>
+			<p><strong><br>Safety Issues</strong></p>
+			<li>Be aware of new safety issues created by the disaster. Watch for washed out roads, contaminated buildings, contaminated water, gas leaks, broken glass, damaged electrical wiring and slippery floors.</li>
+			<li>Never try to feed liquids to an unconscious person.</li>			
+        </div>
+      </article>	  
+      <article class="col2">
+      </article>
+    </div>
+  </section>
+  <footer>
+        <h5><br><br><br><br>Follow Us</h5>
+        <ul class="icons">
+          <li><a href="http://www.facebook.com/"><img src="images/icon1.jpg" alt="">Facebook</a></li>
+          <li><a href="http://www.stumbleupon.com/"><img src="images/icon2.jpg" alt="">Stumbleupon</a></li>
+          <li><a href="http://www.twitter.com/"><img src="images/icon3.jpg" alt="">Twitter</a></li>
+          <li><a href="http://www.digg.com/"><img src="images/icon4.jpg" alt="">Digg</a></li>
+        </ul>
+      </article>
+    </div>
+    <article class="privacy"> Copyright &copy; 2014 <a href="#">Rovic Dimaculangan Lugod</a> - All Rights Reserved<br> 
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+$(window).load(function() {
+	$('#nivo_slider').nivoSlider({
+		effect:'fold', //Specify sets like: 'fold,fade,sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft'
+		slices:7,
+		animSpeed:500,
+		pauseTime:6000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:true, //Next & Prev
+		directionNavHide:false, //Only show on hover
+		controlNav:true, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		controlNavThumbsFromRel:false, //Use image rel for thumbs
+		controlNavThumbsSearch: '.jpg', //Replace this with...
+		controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+		keyboardNav:true, //Use left & right arrows
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:1, //Universal caption opacity
+		beforeChange:function(){},
+		afterChange:function(){},
+		slideshowEnd:function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+<!-- END PAGE SOURCE -->
+</html>

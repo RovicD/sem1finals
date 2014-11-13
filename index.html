@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CompanionApp</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/CabinSketch_700.font.js"></script>
+<script type="text/javascript" src="js/EB_Garamond_400.font.js"></script>
+</head>
+<body id="page1">
+<!-- START PAGE SOURCE -->
+<div class="main">
+  <header>
+    <div class="wrapper">
+      <nav>
+        <ul id="menu">
+          <li id="menu_active"><a href="index.html"><span>H</span>ome</a></li>
+          <li><a href="contacts.html"><span>C</span>ontacts</a></li>
+          <li><a href="location.html"><span>L</span>ocation</a></li>
+		  <li><a href="risk.html"><span>R</span>isk Awareness</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="content">
+    <div class="wrapper">
+      <article class="col1">
+        <h2>Companion App</h2>
+        <div class="pad_left1 pad_bot1">
+          <div id="slider">
+          </div>
+          <div class="pad">
+            <p><strong><br>Companion App</strong> is a web application that presents safety precautions before, during and after disasters. It promotes the safety of any person that has this application.</p>
+          </div>
+        </div>
+        <h2><span>Public Safety</span></h2>
+        <div class="pad_left1">
+          <div class="pad_left1">
+                    <p><br>Public safety [This term is used in many capacities by countries, states, cities, and regions to describe the authority and responsibilities the entity oversees. The public safety issues a city might grapple with include narcotic use, trespassing, burglary, harassment, juvenile delinquency, unauthorized living, noise, littering, inappropriate social behavior, DUIs, and other quality of life issues.] The following definition only looks at a higher level of function such as a country task force: involves the prevention of and protection from events that could endanger the safety of the general public from significant danger, injury/harm, or damage, such as crimes or disasters (natural or man-made).</p>
+					<p>Agencies and organizations tasked with preparing for, planning for, responding to, and/or mitigating after emergencies are referred to as public safety entities. These include emergency management agencies, law enforcement agencies, fire departments, rescue squads, and Emergency Medical Services (EMS).</p>
+                </div>
+              </div>
+      </article>
+      <article class="col2">
+      </article>
+  </section>
+  <footer>
+        <h5><br><br><br><br><br><br><br><br><br><br><br>Follow Us</h5>
+        <ul class="icons">
+          <li><a href="http://www.facebook.com/"><img src="images/icon1.jpg" alt="">Facebook</a></li>
+          <li><a href="http://www.stumbleupon.com/"><img src="images/icon2.jpg" alt="">Stumbleupon</a></li>
+          <li><a href="http://www.twitter.com/"><img src="images/icon3.jpg" alt="">Twitter</a></li>
+          <li><a href="http://www.digg.com/"><img src="images/icon4.jpg" alt="">Digg</a></li>
+        </ul>
+      </article>
+    </div>
+    <article class="privacy"> Copyright &copy; 2014 <a href="#">Rovic Dimaculangan Lugod</a> - All Rights Reserved<br> 
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+$(window).load(function() {
+	$('#nivo_slider').nivoSlider({
+		effect:'fold', //Specify sets like: 'fold,fade,sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft'
+		slices:7,
+		animSpeed:500,
+		pauseTime:6000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:true, //Next & Prev
+		directionNavHide:false, //Only show on hover
+		controlNav:true, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		controlNavThumbsFromRel:false, //Use image rel for thumbs
+		controlNavThumbsSearch: '.jpg', //Replace this with...
+		controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+		keyboardNav:true, //Use left & right arrows
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:1, //Universal caption opacity
+		beforeChange:function(){},
+		afterChange:function(){},
+		slideshowEnd:function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+<!-- END PAGE SOURCE -->
+</html>
